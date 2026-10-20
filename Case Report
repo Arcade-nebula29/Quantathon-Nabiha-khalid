@@ -1,0 +1,48 @@
+Team Name: NKS
+Module Chosen: Module 06 — The Impossible Claim (Quantum Teleportation)   
+Repository Link: https://github.com/Arcade-nebula29/Quantathon-Nabiha-khalid
+1. Executive Summary & VerdictVerdict: 
+Dr. Zara Mahmud’s claimed breakthrough—sending a faster-than-light (FTL) signal via quantum entanglement is physically impossible due to the No-Communication Theorem.   
+
+Core Flaw: Dr. Zara mistook quantum correlation across entangled qubits for information transmission.   
+
+Confidence Level: 95%. While quantum mechanics rules out FTL signaling with 100% certainty, 5% uncertainty remains regarding human tampering with lab system logs.   
+
+2. Key Evidence & Experimental Results Module 01: The Gatekeeper (Mandatory)   
+Results: Verified single-qubit rotations and gate inverse logic (H^2 = I, X^2 = I). Produced deterministic bit states, equal superposition (50/50), and prepared the exact vault bitstring pattern 101.   
+
+Proof: Confirmed machine integrity and fundamental qubit register control.  
+
+Module 03: The Two Observers (Mandatory)   
+Results: Constructed Bell state 
+|Φ⁺⟩ = (1/√2)(|00⟩ + |11⟩)  yielding only 00 and 11 outcomes.   
+
+Proof: Rotating measurement bases into the X-basis preserved correlation. Classical pre-shared random states fail under basis changes, proving genuine quantum entanglement exists yet entanglement alone conveys zero mutual information without a classical channel.   
+
+Module 05: The Damaged Message (Mandatory)   
+
+Results: Processed the 96-bit corrupted stream through a 3-bit repetition majority-vote decoder.   
+
+Recovered Text: Decoded the binary payload 01000101 01000011 01001000 01001111 into Dr. Zara's original word: ECHO.   
+
+Module 06: The Impossible Claim (Stretch Choice)   
+Results: Reconstructed and executed the 3-qubit Quantum Teleportation circuit.   
+Proof: Removing Bob's classical corrections (CX and CZ gates conditioned on Alice's 2 classical bits) reduced Bob’s state to completely random noise ($50/50$). Quantum state transfer strictly requires classical information arriving at speed of light.   
+
+3. Evidence Board
+My investigation established that the recovered 96-bit corrupted payload decoded cleanly into the word ECHO via a majority-vote repetition algorithm, while testing on the Bell pair proved that quantum entanglement correlation holds firmly even under measurement basis rotations. Furthermore, my experiments with the teleportation protocol confirmed that Bob's state recovery completely fails without receiving classical bits over a standard channel. Although Dr. Zara claimed she had successfully transmitted a faster-than-light signal using entanglement, my analysis indicates she mistook quantum correlation for true information transmission. However, key operational details remain open questions, specifically whether Prof. Vance, Sana Rao, or ARIA tampered with or deleted the lab system logs to obscure what actually transpired during the final run.
+
+4. Competing Theory & LimitationsCompeting Theory: 
+External sabotage or log corruption by an insider (e.g., Sana Rao deleting corrupted logs or Prof. Vance exploiting a system flaw) to discredit her work.   
+
+Honest Limitation: The evidence disproves FTL physics, but cannot conclusively establish Dr. Zara's physical whereabouts or identify who initiated the final system execution sequence.   
+
+5. Next Proposed ExperimentImplement a CHSH Inequality Violation Test across independent measurement angles (θ₁,θ₂ ) to quantify non-classical correlations and verify detector efficiency against local hidden-variable theories.   
+
+6. References & AI Tools DeclarationQuantum Computing Framework: 
+
+Qiskit SDK / AerSimulator.   
+
+Theoretical Principles: Quantum Teleportation Protocol & No-Communication Theorem.   
+
+AI Assistance: Generative AI tools were used for code structure optimization, debugging Qiskit circuit execution, and formatting case report documentation (fully permitted per contest guidelines).
